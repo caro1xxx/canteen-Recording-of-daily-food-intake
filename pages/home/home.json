@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "sign-board": "/components/sign-board/sign-board",
+    "food-type":"/components/food-type/food-type",
+    "nav-bar":"/components/nav-bar/nav-bar"
+  }
+}

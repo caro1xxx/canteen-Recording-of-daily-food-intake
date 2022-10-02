@@ -1,0 +1,44 @@
+/* components/Signboard/Signboard.wxss */.title{
+  height: 200rpx;
+}
+.titleContainer{
+  position: relative;
+  border-bottom: 20rpx solid #34ce56;
+  border-top: 20rpx solid #34ce56;
+  height: 150rpx;
+  border-radius: 10rpx;
+  font-size: 100rpx;
+  line-height: 150rpx;
+  text-align: center;
+  font-style: italic;
+}
+.canteen{
+  position: absolute;
+  right: 40%;
+  color:#34ce56;
+}
+.meat{
+  height: 100rpx;
+  width: 100rpx;
+  position: absolute;
+  right: 10rpx;
+}
+.carrot{
+  position: absolute;
+  height: 100rpx;
+  width: 100rpx;
+  top:-30rpx;
+  left: 25%;
+}
+.salary{
+  height: 180rpx;
+  width: 180rpx;
+  position: absolute;
+  left: 30rpx;
+}
+.egg{
+  height: 200rpx;
+  width: 200rpx;
+  right: 10%;
+  position: absolute;
+}

@@ -1,0 +1,18 @@
+<!--components/food-type/food-type.wxml-->
+<view class="foodtype">
+  <image class="type" src="{{foodInfo[4]}}"></image>
+  <view class="detail">
+    <view class="line">
+      <view class="typesettingLeft">名称:</view><view class="typesettingRight">{{foodInfo[0]}}</view>
+    </view>
+    <view class="line">
+      <view class="typesettingLeft">能量:</view><view class="typesettingRight">{{foodInfo[1]}}/100g</view>
+    </view>
+    <view class="line">
+      <view class="typesettingLeft">卡路里:</view><view class="typesettingRight">{{foodInfo[2]}}/100g</view>
+    </view>
+    <view class="line">
+      <view class="typesettingLeft">蛋白质:</view><view class="typesettingRight">{{foodInfo[3]}}/100g</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<view class="title">
+  <view class="titleContainer">
+    <text class="canteen">食堂</text>
+    <image class="meat" src="../../image/meat.png"></image>
+    <image class="carrot" src="../../image/carrot.png"></image>
+    <image class="salary" src="../../image/salary.png"></image>
+    <image class="egg" src="../../image/egg.png"></image>
+  </view>
+</view>
+

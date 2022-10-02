@@ -1,0 +1,25 @@
+/* components/nav-bar/nav-bar.wxss */
+.navbar{
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 100rpx;
+  margin: 0 10%;
+  width: 80%;
+  bottom: 50rpx;
+  z-index: 10;
+  background-color: #a2fab5;
+  border: 1px solid #4aeb6d;
+  border-radius: 20rpx;
+}
+.rank{
+  width: 80rpx;
+  height: 80rpx;
+  margin: auto;
+}
+
+.itemfen{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  position: relative;
+}
