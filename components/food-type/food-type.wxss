@@ -1,4 +1,6 @@
 /* components/food-type/food-typ.wxss *//* components/food-type/food-type.wxss */
+
+
 .foodtype{
   /* height: 200rpx;
   padding: 20rpx 50rpx; */

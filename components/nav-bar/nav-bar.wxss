@@ -3,23 +3,51 @@
   position: fixed;
   background-color: rgb(255, 255, 255);
   height: 100rpx;
-  margin: 0 10%;
-  width: 80%;
-  bottom: 50rpx;
+  right: -2px;
+  width: 300rpx;
+  bottom: 80rpx;
   z-index: 10;
-  background-color: #a2fab5;
-  border: 1px solid #4aeb6d;
-  border-radius: 20rpx;
-}
-.rank{
-  width: 80rpx;
-  height: 80rpx;
-  margin: auto;
+  border:  2px solid #12a966;
+  border-radius: 50rpx  0 0 50rpx;
+  line-height: 140rpx;
+  animation: expand 1s;
 }
 
-.itemfen{
-  display: inline-block;
-  width: 33%;
-  text-align: center;
-  position: relative;
+.picknavbar{
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 100rpx;
+  right: -240rpx;
+  width: 300rpx;
+  bottom: 80rpx;
+  z-index: 10;
+  border:  2px solid #12a966;
+  border-radius: 50rpx  0 0 50rpx;
+  line-height: 140rpx;
+  animation: pickup 1s;
+}
+
+@keyframes expand{
+  from{
+    right: -240rpx;
+  }
+  to{
+    right: -2px;
+  }
+}
+
+@keyframes pickup{
+  from{
+    right: -2px;
+  }
+  to{
+    right: -240rpx;
+  }
+}
+
+
+.item{
+  margin:  0 5rpx;
+  width: 60rpx;
+  height: 60rpx;
 }

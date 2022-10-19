@@ -17,9 +17,8 @@ Page({
       { id: 7,name:"快餐",protein:">16.2 g",energy:">274 kcal",fat:">23.5 g", img:"/image/fastfood.png",unique: "unique7" },
       { id: 5,name:"苹果",protein:"54 g",energy:"85.9 kcal",fat:"0.2 g", img:"/image/apple.png",unique: "unique5" },
       { id:10,name:"面包",protein:"9.0 g",energy:"313 kcal",fat:"8.5 g", img:"/image/bread.png",unique: "unique10" },
-      ]
+      ],
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

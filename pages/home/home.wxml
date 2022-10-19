@@ -1,6 +1,7 @@
 <view class="Homebody">
   <sign-board></sign-board>
-  <food-type wx:for="{{input_data}}" wx:key="unique" wx:for-item="food" foodInfo="{{[food.name,food.protein,food.energy,food.fat,food.img]}}"></food-type>
-  
+  <food-type wx:for="{{input_data}}" wx:key="unique" wx:for-item="food" foodInfo="{{[food.name,food.protein,food.energy,food.fat,food.img]}}"
+  ></food-type>
+  {{ShoppingCarData}}
+  <nav-bar></nav-bar>
 </view>
-<nav-bar></nav-bar>

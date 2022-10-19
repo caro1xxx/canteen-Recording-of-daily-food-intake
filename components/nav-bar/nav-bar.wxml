@@ -1,12 +1,8 @@
 <!--components/nav-bar/nav-bar.wxml-->
-<view class="navbar">
-  <view class="itemfen">
-    <image  class="rank" src="/image/rank.png"></image>
-  </view>
-  <view class="itemfen">
-    <image  class="rank" src="/image/add.png"></image>
-  </view>
-  <view class="itemfen">
-    <image  class="rank" src="/image/record.png"></image>
-  </view>
+<view class="{{expandState.state === true ? 'navbar' : 'picknavbar'}}">
+  <image bindtap="expand" wx:if="{{!expandState.state}}" class="item" src="/image/expand.png"></image>
+  <image bindtap="pickUp" wx:else="{{expandState.state}}" class="item" src="/image/pick.png"></image>
+  <image class="item" src="/image/add.png"></image>
+  <image class="item" src="/image/user.png"></image>
+  <image class="item" src="/image/car.png"></image>
 </view>
